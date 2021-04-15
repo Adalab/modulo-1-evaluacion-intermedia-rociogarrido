@@ -42,6 +42,10 @@
   text-transform: uppercase;
 }
 
+ul li:hover {
+  transform: scale(1.2);
+}
+
 .main {
   width: 100vw;
   height: 100vh;
@@ -56,6 +60,7 @@
   font-size: 30px;
   color: #ffffff;
   text-transform: capitalize;
+  font-weight: 700;
   max-width: 200px;
 }
 
@@ -67,8 +72,10 @@
     justify-content: space-between;
   }
 
-  .main-text {
-    font-size: 40px;
+  .logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
   }
 
   .header-menu {
@@ -81,9 +88,7 @@
     padding-right: 10px;
   }
 
-  .logo {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
+  .main-text {
+    font-size: 40px;
   }
 }
